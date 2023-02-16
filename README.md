@@ -6,3 +6,6 @@ Login as root user `sudo su -` then follow this: https://assistanz.com/install-f
 
 Install lavfi `yum install alsa-utils alsa-lib`
 
+install githiub
+
+download this repo
