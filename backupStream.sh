@@ -1,6 +1,6 @@
-placeholder="https://github.com/lerryberry/ChickenCam/blob/4f5bd91e0c4b0692d64b21e2f31e3c8333486c8c/backup/placeholder-offline.jpg"
-imageName=$(basename $placeholder)
-$(curl $placeholder)
+placeholderURL="https://raw.githubusercontent.com/lerryberry/ChickenCamBackup/main/placeholder-offline.jpg"
+imageName=$(basename $placeholderURL)
+$(curl $placeholder > $imageName)
 $(pkill "ffmpeg")
 $(sleep 2)
 
