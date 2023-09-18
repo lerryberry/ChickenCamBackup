@@ -7,9 +7,8 @@ Backup stream for 24-hour backyard chicken livestream
 2. Install ffmpeg: `apt install ffmpeg`
 3. Install lavfi: `apt install alsa-utils`
 4. Download this repo: `git clone https://github.com/lerryberry/ChickenCamBackup.git`
-5. Update the Youtube stream code in the `cd ChickenCamBackup`, then `nano backupStream.sh`
+5. Update the Youtube stream code in the script, `cd ChickenCamBackup`, then `nano backupStream.sh`
 6. make the file executable  `chmod +x backupStream.sh`
-7. Update the image path in the script with your own!
 
 ## Setup the crontab
 Set nano as the default crontab editor `export VISUAL=nano; crontab -e`
