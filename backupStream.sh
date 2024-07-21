@@ -12,5 +12,5 @@ ffmpeg \
                 -loglevel quiet -loop 1 -r 18 \
                 -i $imageName \
                 -vcodec libx264 -crf 10 -pix_fmt yuv420p \
-        -f flv rtmp://a.rtmp.youtube.com/live2/codehere
+        -f flv rtmp://a.rtmp.youtube.com/live2?backup/codehere
 )
